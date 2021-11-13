@@ -1,0 +1,21 @@
+---
+title: "Group 33 CA pollution burden"
+author: "Olivia Isbell & Alex Setmajer"
+date: "11/12/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE , warning=FALSE , message=FALSE}
+knitr::opts_chunk$set(echo = TRUE , warning=FALSE , message=FALSE )
+#attach packages 
+library(here)
+library(tidyverse) 
+library(janitor)
+```
+
+```{r}
+#read in .csv 
+ces <- read_csv(here( "data" , "ces3demographics.csv")) %>% 
+  clean_names() 
+```
+
