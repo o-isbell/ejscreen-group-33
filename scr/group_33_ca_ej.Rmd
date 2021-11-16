@@ -27,6 +27,10 @@ ggplot(data= ces, aes(x= white_percent, y= ces_3_0_score)) +
   theme_minimal()
   
 ```
-Figure 1: The relationship between California's White population and CalEnviroScreen 3.0 score. There are two high scoring areas, one being where there is 0 % White population and where the White population is high the CalEnvironScreen is low. 
 
+*Figure 1. The relationship between California's White population and CalEnviroScreen 3.0 score.* There are two high scoring areas, one being where there is 0 % White population and where the White population is high the CalEnvironScreen is low. 
+
+This graph shows us that communities made up of ethinicities other than white populations tend have higher CalEnviroScreen 3.0 scores, which means that they are more greatly burndened by pollution. Whereas, communities made up of mostly white populations tend to have lower CalEnviroScreen 3.0 scores, meaning they are less burdened by pollution.
+
+Data Citation: CalEnviroScreen 3.0 (2018). California Environmental Protection Agency (CalEPA) Office of Environmental Health Hazard Assessment (OEHHA). https://oehha.ca.gov/calenviroscreen/report/calenviroscreen-30
 
