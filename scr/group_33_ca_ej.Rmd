@@ -23,10 +23,10 @@ ces <- read_csv(here( "data" , "ces3demographics.csv")) %>%
 ggplot(data= ces, aes(x= white_percent, y= ces_3_0_score)) +
   geom_hex()+ 
   scale_fill_gradient(low = "#FFE666", high = "#FF0055")+
-  labs( x = " White Population (%)" , y = "Cal Environmental Screen 3.0")+ 
+  labs( x = " White Population (%)" , y = "Cal Environmental Screen 3.0" , caption = "Data from CalEnviroScreen 3.0")+ 
   theme_minimal()
   
 ```
-
+Figure 1: The relationship between California's White population and CalEnviroScreen 3.0 score. There are two high scoring areas, one being where there is 0 % White population and where the White population is high the CalEnvironScreen is low. 
 
 
